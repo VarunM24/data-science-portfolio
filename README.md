@@ -4,6 +4,20 @@
 
 ## Python
 
+## Programming related:
+1. Pandas
+2. Advanced Python
+3. Matplotlib
+4. Scikit learn
+5. h20
+6. xgboost
+7. Tensorflow
+8. keras
+9. OpenCV
+10. Data scrapping
+
+
+
 ### Data Cleaning
 1. Real Estate data wrangling
 2. Text data preperation from xml files
@@ -34,3 +48,9 @@
 ### Data analysis & visualization
 1. Car accidents in melbourne analysis
 2. Congestion and speed limit violation analysis
+
+## Scala
+1. Coming soon
+
+## Pig & Hive
+1. Coming soon
