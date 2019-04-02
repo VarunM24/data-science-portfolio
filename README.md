@@ -49,7 +49,7 @@ Libraries used - `nltk`, `pandas`, `numpy`
 
 #### Text Classification
 1. [News classification](https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/text-classification/News-classification/modelling/News-Classification.ipynb "Python Jupyter notebook")
-Preprocessed news article are classified using different machine learning models (Naive Bayes, Multilayer Perceptron, Logistic regression, Linear SVM, CNN using wordembeddings, CNN+LSTM, Fasttext) for a kaggle style university competition, in an attempt to get highest accuracy. Libraries used - `sklearn, keras, pandas, numpy, fastext`
+Preprocessed news article are classified using different machine learning models (Naive Bayes, Multilayer Perceptron, Logistic regression, Linear SVM, CNN using wordembeddings, CNN+LSTM, Fasttext) for a kaggle style university competition, in an attempt to get highest accuracy. Libraries used - `sklearn', 'keras', 'pandas', 'numpy', 'fastext`
 
 
 ## R
