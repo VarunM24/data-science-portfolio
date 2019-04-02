@@ -40,7 +40,7 @@
 #### Reinforcement learning
 1. Coming soon
 
-#### Others
+#### Text Classification
 1. Text dataset - News classification
 
 ## R
