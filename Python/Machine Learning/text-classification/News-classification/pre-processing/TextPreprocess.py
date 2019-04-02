@@ -1,6 +1,4 @@
 
-import numpy as np
-import pandas as pd
 import nltk
 from nltk.corpus import wordnet
 import re
@@ -15,7 +13,6 @@ import random
 import traceback
 import numpy as np
 import pandas as pd
-import numpy as np
 
 class Preprocess:
    
