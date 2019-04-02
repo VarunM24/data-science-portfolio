@@ -22,13 +22,13 @@
 1. Real Estate data wrangling
 2. [Text data preperation from xml files](https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Wrangling/Xml-Text-preprocessing.ipynb "Python Jupyter notebook")
 Given a xml file containing patent abstract data, I attempt to extract and preprocess for downstream analytical tasks.
-Libraries used - `BeautifulSoup, pandas, numpy, nltk`
+Libraries used - `BeautifulSoup`, `pandas`, `numpy`, `nltk`
 3. [Data wrangling using json files](https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Wrangling/Json-data-wrangling.ipynb "Python Jupyter notebook")
 Given a json file containing real estate data, I attempt to clean it up for downstream analytical tasks.
-Libraries used - `json, pandas, seaborn, matplotlib, numpy, sklearn`
+Libraries used - `json`, `pandas`, `seaborn`, `matplotlib`, `numpy`, `sklearn`
 3. [Text data preprocessing of news articles](https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/text-classification/News-classification/pre-processing/News-Preprocessing.ipynb "Python Jupyter notebook")
 Given a set of training and test dataset of news articles, I attempt to preprocess them for classification task. 
-Libraries used - `nltk, pandas, numpy`
+Libraries used - `nltk`, `pandas`, `numpy`
 
 ### Data analysis
 
