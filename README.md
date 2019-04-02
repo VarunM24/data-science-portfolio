@@ -4,7 +4,7 @@
 
 ## Python
 
-## Programming related:
+### Programming related:
 1. Pandas
 2. Advanced Python
 3. Matplotlib
