@@ -26,7 +26,7 @@ Libraries used - `BeautifulSoup`, `pandas`, `numpy`, `nltk`
 3. [Data wrangling using json files](https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Wrangling/Json-data-wrangling.ipynb "Python Jupyter notebook")
 Given a json file containing real estate data, I attempt to clean it up for downstream analytical tasks.
 Libraries used - `json`, `pandas`, `seaborn`, `matplotlib`, `numpy`, `sklearn`
-3. [Text data preprocessing of news articles](https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/text-classification/News-classification/pre-processing/News-Preprocessing.ipynb "Python Jupyter notebook")
+4. [Text data preprocessing of news articles](https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/text-classification/News-classification/pre-processing/News-Preprocessing.ipynb "Python Jupyter notebook")
 Given a set of training and test dataset of news articles, I attempt to preprocess them for classification task. 
 Libraries used - `nltk`, `pandas`, `numpy`
 
@@ -55,8 +55,10 @@ Preprocessed news article are classified using different machine learning models
 ## R
 
 ### Data analysis & interactive visualizations
-1.[ Car accidents in Victoria interactive visualization](https://vm24.shinyapps.io/Victoria-car-accidents/ "ShinyApp") 
-2. Congestion and speed limit violation interactive visualization
+1.[  Car accidents in Victoria interactive visualization](https://vm24.shinyapps.io/Victoria-car-accidents/ "ShinyApp")
+I used Victoria's vehicle accident and hospital data to create this interactive R Shiny visualization for deriving insights. Data cleaning and wrangling was performed in python, and the visualization was created in R Shiny. Libraries used: `R Shiny`, `chorddiag`, `ggplot2`, `leaflet`, `plotly`
+2. Datathon 2018 - Congestion and speed limit violation interactive visualization -
+Given myki data and average car speed and location data taken from sensors at Datathon 2018, I combined the average car speed data with speed limit data shape file and traffic volume data shape file in QGIS, cleaned, transformed and wrangled the data in python to create this interactive visualization in R shiny. Using this visualization we can spot congested roads during different time of the day, sections of the road where speed limits are frequently violated, and also under utilized roads. This visualization can help in improving the road network in victoria. Libraries used: `R Shiny`,  `leaflet`
 
 ## Scala
 1. Coming soon
