@@ -14,7 +14,7 @@
 7. Tensorflow
 8. keras
 9. OpenCV
-10. Data scrapping
+10. Data scraping
 
 
 
@@ -32,8 +32,8 @@ Libraries used - `nltk`, `pandas`, `numpy`
 
 ### Data analysis
 
-1. Inside Airbnb Exploratory Data analysis
-2. Myki data Exploratory Data Analysis
+1. Inside Airbnb Exploratory Data analysis (to be uploaded)
+2. Myki data Exploratory Data Analysis (to be uploaded)
 
 ### Machine learning projects
 
@@ -54,9 +54,9 @@ Preprocessed news article are classified using different machine learning models
 
 ## R
 
-### Data analysis & visualization
-1. Car accidents in melbourne analysis
-2. Congestion and speed limit violation analysis
+### Data analysis & interactive visualizations
+1.[ Car accidents in Victoria interactive visualization](https://vm24.shinyapps.io/Victoria-car-accidents/ "ShinyApp") 
+2. Congestion and speed limit violation interactive visualization
 
 ## Scala
 1. Coming soon
