@@ -42,7 +42,7 @@ Libraries used - `nltk`, `pandas`, `numpy`
 2. Mnist digit classification
 3. Object detection
 4. Object localization
-
+5. University Data science society kaggle - Real estate data modelling
 
 #### Reinforcement learning
 1. Coming soon
