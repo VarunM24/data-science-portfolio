@@ -61,7 +61,7 @@ I used Victoria's vehicle accident and hospital data to create this interactive 
 Given myki data and average car speed and location data taken from sensors at Datathon 2018, I combined the average car speed data with speed limit data shape file and traffic volume data shape file in QGIS, cleaned, transformed and wrangled the data in python to create this interactive visualization in R shiny. Using this visualization we can spot congested roads during different time of the day, sections of the road where speed limits are frequently violated, and also under utilized roads. This visualization can help in improving the road network in victoria. Libraries used: `R Shiny`,  `leaflet`
 
 ## Tableau visualizations:
-1. [Movie rating dashboard](https://public.tableau.com/views/Moviedashboard/Moviepopularity?:embed=y&:display_count=yes&publish=yes "Tableau dashboard"): Using rotten tomatoes data containing hollywood movies data, we created this dashboard to see compare rating by audience and rotten tomatoes critics.
+1. [Movie rating dashboard](https://public.tableau.com/views/Moviedashboard/Moviepopularity?:embed=y&:display_count=yes&publish=yes "Tableau dashboard"): Using rotten tomatoes data containing hollywood movies data, I created this dashboard to see compare rating by audience and rotten tomatoes critics.
 
 2. [Journalist deaths in various countries storytelling](https://public.tableau.com/views/Journalist_Deaths_15543637300810/Story1?:embed=y&:display_count=yes&publish=yes "Tableau storytelling"): This story is about notoriousness of various countries for deaths of journalist over the years.
 
