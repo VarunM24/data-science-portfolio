@@ -24,16 +24,6 @@ Libraries used - `nltk`, `pandas`, `numpy`
 
 ### Machine learning projects
 
-#### Kaggle (to be uploaded)
-1. Titanic dataset - Predicting survivors
-2. Mnist digit classification
-3. Object detection
-4. Object localization
-5. University Data science society kaggle - Real estate data modelling
-
-#### Reinforcement learning
-1. Coming soon
-
 #### Text Classification
 1. [News classification](https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/text-classification/News-classification/modelling/News-Classification.ipynb "Python Jupyter notebook"): <br>
 Preprocessed news article are classified using different machine learning models (Naive Bayes, Multilayer Perceptron, Logistic regression, Linear SVM, CNN using wordembeddings, CNN+LSTM, Fasttext) for a kaggle style university competition, in an attempt to get highest accuracy. Libraries used - `sklearn`, `keras`, `pandas`, `numpy`, `fastext`
