@@ -45,5 +45,3 @@ Given myki data and average car speed and location data taken from sensors at Da
 ## Scala
 1. Coming soon
 
-## Pig & Hive
-1. Coming soon
