@@ -2,7 +2,7 @@
 ##### This repository contains data analysis, visualization and machine learning projects I worked on during my course, as part of competitions, my hobby, curiosity and endeavours to expand and practice my skillset.
 -------------------------------------------------------------------------------------------------------------------------------------
 
-## Python
+## Python 3.5
 
 
 ### Data Cleaning
@@ -14,7 +14,8 @@ Libraries used - `BeautifulSoup`, `pandas`, `numpy`, `nltk`
 Given a json file containing real estate data, I attempt to clean it up for downstream analytical tasks.
 Libraries used - `json`, `pandas`, `seaborn`, `matplotlib`, `numpy`, `sklearn`
 3. [Text data preprocessing of news articles](https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/text-classification/News-classification/pre-processing/News-Preprocessing.ipynb "Python Jupyter notebook"): <br>
-Given a set of training and test dataset of news articles, I attempt to preprocess them for classification task. 
+Given a set of training and test dataset of news articles, I attempt to preprocess them for classification task. <br>
+`pip install -r requirements.txt` should help get the environment setup to run this notebook. The requirements.txt file can be found at <a href="https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/text-classification/News-classification/requirements.txt">here</a>. <br>
 Libraries used - `nltk`, `pandas`, `numpy`
 
 ### Data analysis
@@ -26,7 +27,9 @@ Libraries used - `nltk`, `pandas`, `numpy`
 
 #### Text Classification
 1. [News classification](https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/text-classification/News-classification/modelling/News-Classification.ipynb "Python Jupyter notebook"): <br>
-Preprocessed news article are classified using different machine learning models (Naive Bayes, Multilayer Perceptron, Logistic regression, Linear SVM, CNN using wordembeddings, CNN+LSTM, Fasttext) for a kaggle style university competition, in an attempt to get highest accuracy. Libraries used - `sklearn`, `keras`, `pandas`, `numpy`, `fastext`
+Preprocessed news article are classified using different machine learning models (Naive Bayes, Multilayer Perceptron, Logistic regression, Linear SVM, CNN using wordembeddings, CNN+LSTM, Fasttext) for a kaggle style university competition, in an attempt to get highest accuracy. 
+`pip install -r requirements.txt` should help get the environment setup to run this notebook. The requirements.txt file can be found at <a href="https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/text-classification/News-classification/requirements.txt">here</a>. Instructions on how to install keras (using tensorflow backend) can be found <a href="https://keras.io/#installation">here</a>.<br>
+Main libraries used - `sklearn`, `keras`, `pandas`, `numpy`, `fastext`
 
 
 ## R
