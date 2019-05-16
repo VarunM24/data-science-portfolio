@@ -32,6 +32,15 @@ Preprocessed news article are classified using different machine learning models
 Main libraries used - `sklearn`, `keras`, `pandas`, `numpy`, `fastext`
 
 
+#### Kaggle
+1. [Bike share rental demand prediction](https://github.com/VarunM24/data-science-portfolio/tree/master/Python/Machine%20Learning/Kaggle/Bike-Share "Python Jupyter notebook")  :
+In this Kaggle <a href="https://www.kaggle.com/c/bike-sharing-demand/overview">competition</a > we are given a set of historical bike rental data spanning 2 years. We need to use first 19 days of hourly bike rental data to predict the hourly bike rental demand count for the rest of the month. <br>
+- Data was preprocessed and explored in this <a href="https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/Kaggle/Bike-Share/kaggle_bikeshare_data_preparation.ipynb">notebook</a> on AWS Sagemaker.
+- Data modelling was done using xgboost in this <a href="https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/Kaggle/Bike-Share/kaggle_bikeshare_xgboost_cloud_training.ipynb">notebook</a> on AWS Sagemaker cloud inatace.
+- The deployed endpoint was used to make predictions for test data using this <a href="https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/Kaggle/Bike-Share/kaggle_bikeshare_xgboost_cloud_prediction.ipynb">notebook </a> on AWS Sagemaker. <br>
+Main libraries/tools used - `boto3`, `sagemaker`, `pandas`, `numpy`, `matplotlib`
+
+
 ## R
 
 ### Data analysis & interactive visualizations
