@@ -35,7 +35,7 @@ Main libraries used - `sklearn`, `keras`, `pandas`, `numpy`, `fastext`
 ## R
 
 ### Data analysis & interactive visualizations
-1. [  Car accidents in Victoria interactive visualization app](https://vm24.shinyapps.io/Car_accidents/ "ShinyApp"): <br>
+1. [  Car accidents in Victoria interactive visualization app](https://vm24.shinyapps.io/victoria-car-accidents/ "ShinyApp"): <br>
 I used Victoria's vehicle accident and hospital data to create this interactive R Shiny visualization app for deriving insights. Data cleaning and wrangling was performed in python, and the visualization was created in R Shiny. Libraries used: `R Shiny`, `chorddiag`, `ggplot2`, `leaflet`, `plotly` 
 2. Datathon 2018 - Congestion and speed limit violation interactive visualization (to be uploaded): <br>
 Given myki data and average car speed and location data taken from sensors at Datathon 2018, I combined the average car speed data with speed limit data shape file and traffic volume data shape file in QGIS, cleaned, transformed and wrangled the data in python to create this interactive visualization in R shiny. Using this visualization we can spot congested roads during different time of the day, sections of the road where speed limits are frequently violated, and also under utilized roads. This visualization can help in improving the road network in victoria. Libraries used: `R Shiny`,  `leaflet`
