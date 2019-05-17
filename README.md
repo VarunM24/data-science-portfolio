@@ -2,7 +2,7 @@
 ##### This repository contains data analysis, visualization and machine learning projects I worked on during my course, as part of competitions, my hobby, curiosity and endeavours to expand and practice my skillset.
 -------------------------------------------------------------------------------------------------------------------------------------
 
-## Python 3.5
+## Python
 
 
 ### Data Cleaning
