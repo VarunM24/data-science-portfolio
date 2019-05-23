@@ -45,7 +45,7 @@ https://jupyter.readthedocs.io/en/latest/install.html<br>
 ## Description
 I have created a Class Bakery with different functions to solve this problem. 
 This class needs to be initialized with different item, their code and package along with their prices. Print order also needs to be specified. 
-To give an order define order in a list with each order as a seperate element. Then call takeORder function from Bakery class with list as parameter.<br>
+To give an order define order in a list with each order as a seperate element. Then call takeOrder function from Bakery class with list as parameter.<br>
 The __determineItemBreakup contains the algorithm which sequentially starts from lowest possible order amount until the given order amount and finds the minimum number of 
  packages using the biggest possible package size for each such order amount, storing them while it moves to next order amt.
  For Order amount X, algorithm will start from order amt = min package possible uptil X. For each such amount appropriate minimum
