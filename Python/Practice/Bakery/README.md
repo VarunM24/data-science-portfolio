@@ -39,10 +39,13 @@ A successfully passing test(s) that demonstrates the following output:<br><pre>
 # Assumption:
 In case a person makes an order which cannot be served using specified packages, it will be considered invalid and displayed with Invalid Order.
 # Solution
+## Environment
 Python 3.5 and Jupyter notebook was used to created this solution. Jupyter can be installed from this website:
 https://jupyter.readthedocs.io/en/latest/install.html<br>
+## Description
 I have created a Class Bakery with different functions to solve this problem. 
-This class needs to be initialized with different item, their code and package along with their prices. Print order also needs to be specified.
+This class needs to be initialized with different item, their code and package along with their prices. Print order also needs to be specified. 
+To give an order define order in a list with each order as a seperate element. Then call takeORder function from Bakery class with list as parameter.<br>
 The __determineItemBreakup contains the algorithm which sequentially starts from lowest possible order amount until the given order amount and finds the minimum number of 
  packages using the biggest possible package size for each such order amount, storing them while it moves to next order amt.
  For Order amount X, algorithm will start from order amt = min package possible uptil X. For each such amount appropriate minimum
