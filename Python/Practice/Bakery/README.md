@@ -39,7 +39,8 @@ A successfully passing test(s) that demonstrates the following output:<br><pre>
 # Assumption:
 In case a person makes an order which cannot be served using specified packages, it will be considered invalid and displayed with Invalid Order.
 # Solution
-Python 3.5 and Jupyter notebook was used to created this solution.<br>
+Python 3.5 and Jupyter notebook was used to created this solution. Jupyter can be installed from this website:
+https://jupyter.readthedocs.io/en/latest/install.html<br>
 I have created a Class Bakery with different functions to solve this problem. 
 This class needs to be initialized with different item, their code and package along with their prices. Print order also needs to be specified.
 The __determineItemBreakup contains the algorithm which sequentially starts from lowest possible order amount until the given order amount and finds the minimum number of 
@@ -52,7 +53,7 @@ For larger order amounts it uses the previously calculated minimum number of pac
  required using printBakeryReceipt function.
   
  # Instructions to Run
- There are no special instructions required. Just run all in jupyter using Python 3.
+ There are no special instructions required. Just run all  cells in jupyter using Python 3.
  
  # Github Render issue 
  Incase Github does not render Jupyter file use the following link to view :
