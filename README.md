@@ -2,7 +2,7 @@
 ##### This repository contains data analysis, visualization and machine learning projects I worked on during my course, as part of competitions, my hobby, curiosity and endeavours to expand and practice my skillset.
 -------------------------------------------------------------------------------------------------------------------------------------
 
-## Python 3.5
+## Python
 
 
 ### Data Cleaning
@@ -18,10 +18,6 @@ Given a set of training and test dataset of news articles, I attempt to preproce
 `pip install -r requirements.txt` should help get the environment setup to run this notebook. The requirements.txt file can be found at <a href="https://github.com/VarunM24/data-science-portfolio/blob/master/Python/Machine%20Learning/text-classification/News-classification/requirements.txt">here</a>. <br>
 Libraries used - `nltk`, `pandas`, `numpy`
 
-### Data analysis
-
-1. Inside Airbnb Exploratory Data analysis (to be uploaded)
-2. Myki data Exploratory Data Analysis (to be uploaded)
 
 ### Machine learning projects
 
