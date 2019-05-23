@@ -11,7 +11,7 @@ a pack of 5. The bakery currently sells the following products:
 |-----------|-----------|----------|
 |Vegemite Scroll| VS5|3 @ 6.99, 5 @ 8.99|
 | Croissant | CF | 2 @ 9.95, 5@ 16.95, 8 @ 24.95|
-    |Bluberry Muffin|MB11|3 @ 5.95, 5 @ 9.95 ,9 @ 16.99|
+|Bluberry Muffin|MB11|3 @ 5.95, 5 @ 9.95 ,9 @ 16.99|
 
 ## Task
 Given a customer order you are required to determine the cost and pack breakdown for each product.
@@ -19,22 +19,25 @@ To save on shipping space each order should contain the minimal number of packs
 
 ## Input:
 Each order has a series of lines with each line containing the number of items followed by the product
-code. An example input:
-10 VS5
-14 MB11
+code. An example input:<br>
+10 VS5<br>
+14 MB11<br>
 13 CF
 
 ## Output
-A successfully passing test(s) that demonstrates the following output:
-10 VS5 $17.98
-2 x 5 $8.99
-14 MB11 $54.8
-1 x 8 $24.95
-3 x 2 $9.95
-13 CF $25.85
-2 x 5 $9.95
-1 x 3 $5.95
+A successfully passing test(s) that demonstrates the following output:<br><pre>
+10 VS5 $17.98<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 x 5 $8.99<br>
+14 MB11 $54.8<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 x 8 $24.95<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 x 2 $9.95<br>
+13 CF $25.85<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 x 5 $9.95<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 x 3 $5.95<br>
+</pre>
 
+# Assumption:
+In case a person makes an order which cannot be served using specified packages, it will be considered invalid and displayed with Invalid Order.
 # Solution
 Python 3.5 was used to created this solution.
 I have created a Class Bakery with different functions to solve this problem. 
