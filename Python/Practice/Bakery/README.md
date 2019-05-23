@@ -11,7 +11,7 @@ a pack of 5. The bakery currently sells the following products:
 |-----------|-----------|----------|
 |Vegemite Scroll| VS5|3 @ 6.99, 5 @ 8.99|
 | Croissant | CF | 2 @ 9.95, 5@ 16.95, 8 @ 24.95|
-    |Bluberry Muffin|MB11|3 @ 5.95, 5 @ 9.95 ,9 @ 16.99|
+|Bluberry Muffin|MB11|3 @ 5.95, 5 @ 9.95 ,9 @ 16.99|
 
 ## Task
 Given a customer order you are required to determine the cost and pack breakdown for each product.
