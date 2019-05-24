@@ -67,8 +67,9 @@ Open Command prompt (windows), go to the folder containing Bakery-Challenge-Nati
 
 On MAC:
 1. Install python 3.5 from this website : https://www.python.org/downloads/. 
-2. To run your script from the Terminal window you must make sure that /usr/local/bin is in your shell search path.
-3. To run your script from the Finder you have two options:
+2. To run your script from the Terminal window 
+   Run the command: `python Bakery-Challenge-Native.py`
+3. Or to run your script from the Finder you have two options:
 - Drag it to PythonLauncher
 - Select PythonLauncher as the default application to open your script (or any .py script) through the finder Info window and double-click it.
 
