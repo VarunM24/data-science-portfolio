@@ -60,8 +60,7 @@ For larger order amounts it uses the previously calculated minimum number of pac
  
  To run this file on Windows. 
 1. Install python 3.5 from this website : https://www.python.org/downloads/. 
-2. Download Bakery-Challenge-Native.py
-
+2. Download Bakery-Challenge-Native.py by right-clicking it from above and saving it to a location.
 3. Either directly double click the file to run it 
 OR
 Open Command prompt (windows), go to the folder containing Bakery-Challenge-Native.py and run the command :
@@ -69,6 +68,7 @@ Open Command prompt (windows), go to the folder containing Bakery-Challenge-Nati
 
 On MAC:
 1. Install python 3.5 from this website : https://www.python.org/downloads/. 
+2. Download Bakery-Challenge-Native.py by right-clicking it from above and saving it to a location.
 2. To run your script from the Terminal window you must make sure that /usr/local/bin is in your shell search path.
 3. To run your script from the Finder you have two options:
 - Drag it to PythonLauncher
