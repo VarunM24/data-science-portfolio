@@ -40,12 +40,13 @@ A successfully passing test(s) that demonstrates the following output:<br><pre>
 In case a person makes an order which cannot be served using specified packages, it will be considered invalid and displayed with Invalid Order.
 # Solution
 ## Environment
-Python 3.5 and Jupyter notebook was used to created this solution. Jupyter can be installed from this website:
-https://jupyter.readthedocs.io/en/latest/install.html<br>
+Solution was created in native python implementation in the file Bakery-Challenge-Native.py, so python 3.5 will be required to run it.
+Jupyter notebook for this problem is also available.
+
 ## Description
 I have created a Class Bakery with different functions to solve this problem. 
-This class needs to be initialized with different item, their code and package along with their prices. Print order also needs to be specified. 
-To give an order define order in a list with each order as a seperate element. Then call takeOrder function from Bakery class with list as parameter.<br>
+This class will be be initialized with different item, their code and package along with their prices. Print order will also be used in the initialization. 
+In jupyter file to give an order define order in a list with each order as a seperate element. In native python file, the order is taken from command line inputs. Then takeOrder function is called from Bakery class with order list as parameter.<br>
 The __determineItemBreakup contains the algorithm which sequentially starts from lowest possible order amount until the given order amount and finds the minimum number of 
  packages using the biggest possible package size for each such order amount, storing them while it moves to next order amt.
  For Order amount X, algorithm will start from order amt = min package possible uptil X. For each such amount appropriate minimum
@@ -54,9 +55,20 @@ The __determineItemBreakup contains the algorithm which sequentially starts from
 For larger order amounts it uses the previously calculated minimum number of packages  for smaller order amounts. Simultaneously,
  it also keeps track of the package type being used to calculate the minimum number. In the end it prints it out in the format 
  required using printBakeryReceipt function.
-  
+ If there are issues with the input they will be displayed as error messages to the user.
  # Instructions to Run
- There are no special instructions required. Just run all  cells in jupyter using Python 3.
+ 
+ To run this file. 
+1. Install python 3.5 from this website : https://www.python.org/downloads/. 
+2. Download Bakery-Challenge-Native.py
+
+3. Either directly double click the file to run it 
+OR
+Open Command prompt (windows), go to the folder containing Bakery-Challenge-Native.py and run the command :
+`py Bakery-Challenge-Native.py`
+
+Python 3.5 and Jupyter notebook is also available. Jupyter can be installed from this website:
+https://jupyter.readthedocs.io/en/latest/install.html<br>
  
  # Github Render issue 
  Incase Github does not render Jupyter file use the following link to view :
